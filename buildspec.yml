@@ -1,0 +1,6 @@
+pre_build:
+    commands:
+      dotnet restore WebAppTest.csproj
+  build:
+    commands:
+      dotnet build WebAppTest.csproj
